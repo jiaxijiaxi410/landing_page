@@ -1,0 +1,44 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;  
+}
+.container {
+    width: 1200px;
+    height: auto;
+    background-color: rgb(96, 130, 194);
+    margin: auto;
+    border-radius: 20px;
+}
+.logo {
+    float: left;
+    padding: 15px;
+}
+.search {
+    float: right;
+    padding: 15px;
+}
+.clearfix {
+    clear: both;
+}
+.main-menu {
+    background-color: rgb(81, 165, 39);
+}
+.main-menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-menu > ul > li {
+    display: inline-block;
+}
+.main-menu > ul > li > a {
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+
+}
+.main-menu > ul > li > a:hover {
+    background-color: gray;
+}
